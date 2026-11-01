@@ -47,7 +47,7 @@ Copilot app は、最初にプロジェクトの分離されたコピーであ�
 
 AI が生成したすべての変更は、どれほど小さくてもマージ前にレビューする必要があります。Copilot app 内で変更を確認します。
 
-1. アプリの右上隅にある **Toggle review panel** を選択します。Copilot が行った未処理の変更がすべて表示される差分画面が開きます。
+1. アプリの右上隅にある **Toggle review panel** を選択します。開いたパネルで **Changes** を選択し、変更されたファイルとその差分を確認します。
 
     ![Create PR の右側にある Toggle review panel ボタンを矢印で示した GitHub Copilot app の上部ツールバー](../../../_images/app-2-review-panel.png)
 
@@ -97,10 +97,11 @@ AI が生成したすべての変更は、どれほど小さくてもマージ�
 
 1. 右上隅にある **Create PR** を選択します。
 2. 求められた場合は **Sign in with your browser** を選択し、画面の指示に従って認証します。
-3. Copilot が PR の作成を開始します。
-4. チャットのすぐ上にある **PR** バブルを選択し、レビューペインで PR を開いて pull request を確認します。必要に応じて、ここで PR をレビューできます。
-5. 準備ができたら **Ready to merge** を選択します。
-6. 新しいダイアログウィンドウで **Merge pull request** を選択し、pull request をマージします。
+3. Copilot が PR の作成前に対応する Issue が必要だと説明した場合は、その手順に従うことを確認します。
+4. Copilot が PR を作成します。
+5. チャットのすぐ上にある **PR** バブルを選択し、レビューペインで PR を開いて pull request を確認します。必要に応じて、ここで PR をレビューできます。
+6. 準備ができたら **Ready to merge** を選択します。
+7. 新しいダイアログウィンドウで **Merge pull request** を選択し、pull request をマージします。
 
 ## まとめと次のステップ
 
